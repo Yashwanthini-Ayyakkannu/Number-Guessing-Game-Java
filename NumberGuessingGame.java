@@ -8,7 +8,6 @@ public class NumberGuessingGame {
 		Scanner sc=new Scanner(System.in);
 		//Generating the random number
 		int randomno=r.nextInt(100)+1;
-		System.out.println(randomno);
 		while(true) {
 			//Getting the input number from the player
 		System.out.println("Enter your guess from 1 to 100:");
